@@ -98,7 +98,7 @@ The mean of each measurement (as below) from all the time windows available for 
 * freqBodyBodyGyroMagStdDev
 * freqBodyBodyGyroJerkMagStdDev
 
-Note that *features are normalized and bounded within [-1,1].*
+Note that *features are normalized and bounded within [-1,1]*, ie they are ratios and thus without units.
 
 License:
 ========
