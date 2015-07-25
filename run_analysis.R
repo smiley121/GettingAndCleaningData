@@ -53,7 +53,7 @@ combined <- rbind(train,test)
 colnames(combined) <- c("subject", "activity", make.unique(features$V2))
 
 # create a new dataset, using just the measurement means and standard deviations
-# note that not including the meanFrequency weighted averages here, as we're 
+# note that we're not including the meanFrequency weighted averages here, as we're 
 # asked only to include means and standard deviations of *measurements*
 
 dataset <- select(combined,contains("Subject"),contains("Activity"),contains("mean()"),contains("std()"))
@@ -64,7 +64,7 @@ dataset$activity <- factor(dataset$activity, levels = activities$V1,
                            labels = activities$V2)
 
 # a little tidying up of column labels is needed, particularly if we were to do 
-# subsequent analysis on the tiday data
+# subsequent analysis on the tidy data
 
 columns <- colnames(dataset)
 
