@@ -2,7 +2,7 @@
 
 This repo is a submission for the Coursera Getting and Cleaning Data project assignment. It creates a [tidy](http://vita.had.co.nz/papers/tidy-data.pdf) data set of means and standard deviations for various accelerometer and other measurements obtained from Samsubg Galaxy S smartphones, from 30 subjects engaged in six different activities. Further details are available at [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-The R script (run_analysis.R) does five things, as required:
+The R script ([run_analysis.R](https://github.com/smiley121/GettingAndCleaningData/blob/master/run_analysis.R)) does five things, as required:
 
 1. Merges training and test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -12,9 +12,9 @@ The R script (run_analysis.R) does five things, as required:
 
 There are three files here:
 
-* readme.md, (this document) which provides an overview of the project
-* codebook.md, a codebok describing the variables and the transformations that have been performed
-* run_analysis.R, the R script which performs steps as above, which includes comments describing the operations performed
+* README.md, (this document) which provides an overview of the project
+* [codebook.md](https://github.com/smiley121/GettingAndCleaningData/blob/master/codebook.md), a codebook describing the variables and the transformations that have been performed
+* [run_analysis.R](https://github.com/smiley121/GettingAndCleaningData/blob/master/run_analysis.R), the R script which performs steps as above, which includes comments describing the operations performed
 
 ## Preparation
 
